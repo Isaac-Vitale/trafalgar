@@ -1,0 +1,289 @@
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --blue: #458FF6;
+    --grey: #7D7987;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.wrapper{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 56px 180px;
+}
+
+.logo{
+    width: 160px;
+    height: 40px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-items li a{
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    opacity: 0.5;
+    margin: 0 20px;
+}
+
+.nav-items li a.activo{
+    font-weight: bold;
+    opacity: 1;
+}
+
+.hero-container {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container .izquierda{
+    margin-right: 110px;
+    width: 400px;
+    height: 338px;
+}
+
+.hero-container .derecha img{
+    width: 100%;
+}
+
+.hero-container .izquierda h1{
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    width: 430px;
+    margin-bottom: 25px;
+}
+
+.hero-container .izquierda p{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    margin-bottom: 45px;
+}
+
+.hero-container .izquierda .btn{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    background: #458FF6;
+    border-radius: 55px;
+    width: 180px;
+    height: 50px;
+}
+
+.hero-container .izquierda .btn a{
+    color: #ffffff;
+    align-items: center;
+    display: block;
+}
+
+.contenedor-servicios{
+   text-align: center;
+   margin-top: 160px;
+}
+
+.contenedor-servicios h1{
+    margin-bottom: 26px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.contenedor-servicios img{
+    margin-bottom: 33px;
+}
+
+.contenedor-servicios p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+}
+
+.container{
+    margin-top:80px;
+}
+
+.card{
+    margin: 37px 34px;
+}
+
+.btn-container{
+    text-align: center;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    width: 200px;
+    height: 56px;
+    margin-left: 350px;
+}
+
+.btn-container a{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+}
+
+.hero-container-1{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container-1 .izquierda img{
+    width: 100%;
+}
+
+.hero-container-1 .derecha{
+    margin-left: 110px;
+    width: 400px;
+    height: 338px;
+}
+
+.hero-container-1 .derecha h1{
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    width: 430px;
+    margin-bottom: 25px;
+}
+
+.hero-container-1 .derecha p{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    margin-top: 40px;
+}
+
+.hero-container-1 .derecha .btn{
+    margin-top: 40px ;
+    text-align: center;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    width: 180px;
+    height: 50px;
+    margin-right: 350px;
+}
+.hero-container-1 .derecha .btn a{
+    align-items: center;
+    display: block;
+    margin-top: 5px;
+}
+
+
+.hero-container-2{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container-2 .derecha img{
+    width: 100%;
+}
+
+.hero-container-2 .izquierda{
+    margin-left: 110px;
+    width: 400px;
+    height: 338px;
+}
+.hero-container-2 .izquierda h1{
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    width: 430px;
+    margin-bottom: 25px;
+}
+
+.hero-container-2 .izquierda p{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    margin-top: 30px;
+}
+
+.hero-container-2 .izquierda .btn{
+    margin-top: 40px ;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    width: 180px;
+    height: 50px;
+}
+.hero-container-2 .izquierda .btn a{
+    display: block;
+    margin-top: 5px;
+}
+
+.footer{
+    width: 1600px;
+    height: 432px;
+    padding-left: 5px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.footer .logo h1{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin-left: 100px;
+}
+
+.footer .t-1, .t-2{
+    color: #ffffff;
+    width: 391px;
+    height: 80px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    float: left;
+}
+
+.footer .footer-textos{
+    margin-top:250px;
+    margin-left: -55px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
